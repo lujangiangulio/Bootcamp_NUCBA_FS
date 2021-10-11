@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica Clase 02</title>
+</head>
+<body>
+    <!--Estos son los encabezados-->
+    <h1>ESTE ES EL TÍTULO PRINCIPAL</h1>
+    <h2>Este es el subtítulo</h2>
+    <h3>Títulos de secciones</h3>
+    <h4>Títulos de artículos</h4>
+    <h5>Términos y condiciones</h5>
+    <h6>Letra chica</h6>
+    
+    <!--Párrafos-->
+    <p>
+        Esto es un párrafo
+    </p>
+
+    <!--Lista ordenada-->
+    <ol>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+    </ol>
+
+    <!--Lista desordenada-->
+    <ul>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+    </ul>
+
+    <!--Hipervínculos-->
+    <a href="https://www.google.com" target="_blank">IR A GOOGLE</a>
+    
+    <!--Si queremos que el link tenga una imagen, hay que poner la etiqueta img dentro de la a-->
+    <a href="https://google.com.ar" target="_blank">
+    <img src="./Assets/Icono Google.jpg" alt="">
+    </a>
+
+    <!--Colocar una imagen local-->
+    <!--Si la imagen está en la misma carpeta que el index
+    se la llama poniendo ./-->
+    <img src="./Assets/Flor loto.jpg" alt="">
+
+    <!--Etiquetas semánticas-->
+
+    <section>
+        <h2>Esta es una sección</h2>
+        <article>Esto es un artículo</article>
+    </section>
+
+    <br>
+
+    <!--Formularios-->
+    <form action="">
+        <label for="Nombre">Nombre y Apellido:</label>
+        <input name="Nombre" type="text" placeholder="Luján Giangulio">
+
+        <br><br>
+
+        <label for="e-Mail">e-Mail:</label>
+        <input name="Mail" type="email" placeholder="lujan.giangulio@gmail.com" requiered>
+
+        <br><br>
+
+        <label for="Password">Password:</label>
+        <input name="Password" type="password" required>
+
+        <br><br>
+
+        <input type="number">
+
+        <br><br>
+
+        <input type="date">
+
+        <br><br>
+
+        <input type="color">
+
+        <br><br>
+
+        <input type="checkbox">
+
+        <br><br>
+
+        <input type="radio">
+
+        <br><br>
+
+        <input type="textarea">
+
+        <br><br>
+
+        <!--Una mejor forma de usar la etiqueta textarea-->
+        <label for="Comentarios">Comentarios a gusto y piacere (máx. 120 caracteres):</label>
+        <textarea name="Comentarios" id="" cols="30" rows="5" maxlength="120"></textarea>
+
+        <br><br>
+
+        <!--Para cargar archivos-->
+        <input type="file">
+
+        <br><br>
+
+        <!--Para enviar el formulario-->
+        <input type="submit" value="Enviar">
+
+        <br><br>
+
+        <!--Formulario para elegir opciones de un desplegable-->
+        <select name="Sexo" id="">
+            <option value="Femenino">F</option>
+            <option value="Masculino">M</option>
+            <option value="No binario">X</option>
+        </select>
+
+    </form>
+
+    <br><br>
+    <h4>La paradoja del abuelo</h4>
+    <video width="320" height="240" controls>
+        <source src="./Assets/y2mate.com - Qué es la paradoja del abuelo explicación fácil por explainerstv_v144P.mp4">
+    </video>
+
+</body>
+</html>
